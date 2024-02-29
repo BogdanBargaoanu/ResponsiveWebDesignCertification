@@ -1,0 +1,61 @@
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+p {
+    color: white;
+    font-size: 20px;
+
+}
+
+.container {
+    text-align: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.form-item, .form-radio-item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], select {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color:white;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.form-item label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+form {
+    background-color:rgba(1, 155, 202, 0.507);
+    border: 50px transparent rgba(1, 155, 202, 0.507);
+    padding: 20px;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+option,select,input{
+    font-family: 'Courier New', Courier, monospace;
+}
