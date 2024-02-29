@@ -53,6 +53,7 @@ form {
     background-color:rgba(1, 155, 202, 0.507);
     border: 50px transparent rgba(1, 155, 202, 0.507);
     padding: 20px;
+    border-radius: 25px;
 }
 
 body {
