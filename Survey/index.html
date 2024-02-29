@@ -14,18 +14,18 @@
     <p id="description">Please complete the following survey</p>
     <form id="survey-form">
       <div class="form-item">
-        <label id="name-label" for="name">Full name: <input id="name" type="text" required></label>
+        <label id="name-label" for="name">Full name: <input id="name" name="full-name" placeholder="Insert your name here..." type="text" required></label>
       </div>
       <div class="form-item">
-        <label id="email-label" for="email">Email address: <input id="email" type="email" required> </label>
+        <label id="email-label" for="email">Email address: <input id="email" type="email" name="email" placeholder="Insert your email address here..." required></label>
       </div>
       <div class="form-item">
-        <label id="number-label" for="age">Age: <input id="age" type="number" min="10" max="99"></label>
+        <label id="number-label" for="number">Age: (optional) <input id="number" type="number" name="age" placeholder="Insert your age here..." min="10" max="99"></label>
       </div>
       <div class="form-item">
         <label id="dropdown-label" for="drowpdown">Which option best describes your current role?
-          <select id="drowpdown" required>
-            <option disabled selected value>Select an option</option>
+          <select id="dropdown" required>
+            <option disabled selected value>Select an option...</option>
             <option value="1">Front-end Developer</option>
             <option value="2">Back-end Developer</option>
             <option value="3">Full-stack Developer</option>
@@ -39,22 +39,24 @@
       <div class="form-radio-item">
         <label id="radio-label">Would you recommend our company to a friend?</label>
         <div>
-          <label for="definitely"><input id="definitely" name="recommend" value="definitely" type="radio"
-              required>Definitely </label>
+          <label class="radio-label" for="definitely"><input id="definitely" name="recommend" value="definitely"
+              type="radio" required>Definitely </label>
         </div>
         <div>
-          <label for="maybe"><input id="maybe" name="recommend" value="maybe" type="radio" required checked>Maybe
+          <label class="radio-label" for="maybe"><input id="maybe" name="recommend" value="maybe" type="radio" required
+              checked>Maybe
           </label>
         </div>
         <div>
-          <label for="not-sure"><input id="not-sure" name="recommend" value="not-sure" type="radio" required>Not
+          <label class="radio-label" for="not-sure"><input id="not-sure" name="recommend" value="not-sure" type="radio"
+              required>Not
             sure</label>
         </div>
       </div>
       <div class="form-item">
         <label id="dropdown-label" for="dropdown-feature">What is your favorite feature of our products?
           <select id="dropdown-feature" required>
-            <option disabled selected value>Select an option</option>
+            <option disabled selected value>Select an option...</option>
             <option value="1">User Interface</option>
             <option value="2">Price</option>
             <option value="3">Functionality</option>
@@ -62,6 +64,23 @@
             <option value="5">Other</option>
           </select>
         </label>
+      </div>
+      <div class="form-checkbox-item">
+        <label class="checkbox-label">What would you like to be improved about our services:
+          <label class="checkbox-label"><input type="checkbox" value="1">The user interface</label>
+          <label class="checkbox-label"><input type="checkbox" value="2">The price</label>
+          <label class="checkbox-label"><input type="checkbox" value="3">The functionality</label>
+          <label class="checkbox-label"><input type="checkbox" value="4">The customer support</label>
+          <label class="checkbox-label"><input type="checkbox" value="5">Other</label>
+        </label>
+      </div>
+      <div class="form-item">
+        <label id="comments-label" for="comments">Any comments or suggestions?
+          <textarea id="comments" placeholder="Enter your comments here..."></textarea>
+        </label>
+      </div>
+      <div class="form-item">
+        <button id="submit" type="Submit">Submit</button>
       </div>
     </form>
   </div>

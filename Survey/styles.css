@@ -18,15 +18,20 @@ p {
     margin-top: 70px;
 }
 
-.form-item, .form-radio-item {
+.form-item, .form-radio-item , .form-checkbox-item{
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], select {
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], select, textarea {
     width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
 }
 
 label {
@@ -51,11 +56,55 @@ form {
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(background.jpeg);
     background-size: cover;
     font-family: 'Courier New', Courier, monospace;
 }
 
-option,select,input{
+option,select,input, textarea, button{
     font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+    height: 150px;
+}
+
+.checkbox-label, .radio-label {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    min-width: 100px;
+    width: auto;
+    max-width: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input:hover, select:hover, textarea:hover, input[type="checkbox"]:hover, input[type="radio"]:hover{
+    border-color: rgba(0, 171, 194, 0.5);
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+input, select, textarea{
+    margin-top: 10px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    border: 1px solid #ccc;
 }
