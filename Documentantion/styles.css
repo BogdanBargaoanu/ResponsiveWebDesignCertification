@@ -1,9 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
-h1 {
+header.navbar-header {
     position: relative;
     margin: auto;
     text-align: center;
@@ -12,11 +14,12 @@ h1 {
 
 #navbar {
     position: fixed;
-    border-right: 1px solid #576e96; 
+    top: 0;
+    border-right: 1px solid #8f8f8f; 
     height: 100%;
 }
 
-ul {
+ul[class="selection-list"] {
     list-style-type: disc;
     display: block;
     height: 100%;
@@ -24,7 +27,7 @@ ul {
     margin: 0;
 }
 
-ul li {
+ul[class="selection-list"] li {
     position: relative;
     display: block;
     padding: 10px 0;
@@ -40,7 +43,54 @@ a {
     text-decoration: none;
 }
 
-li:hover {
-    background: linear-gradient(#6299ff 30%, #bed4f8 100%);
+li[class="selection-list"]:hover {
+    background: linear-gradient(30deg,#8f8f8f 30%, #ffffff 100%);
     color: rgba(17, 17, 17, 0.767);
+}
+
+.selection-bar {
+    flex: 0 0 20rem;
+}
+
+header {
+    padding-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.code-container {
+    margin-left: 2rem;
+    background-color: #f4f4f4;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    font-family: monospace;
+}
+
+#main-doc {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 800px) {
+    #main-doc {
+        max-width: 90%; 
+    }
+}
+
+@media (max-width: 600px) {
+    #main-doc {
+        max-width: 80%; 
+    }
+}
+
+@media (max-width: 400px) {
+    #main-doc {
+        max-width: 70%; 
+    }
 }

@@ -11,24 +11,235 @@
 <body>
     <div class="selection-bar">
         <nav id="navbar">
-            <h1>HTML Documentation</h1>
-            <ul>
-                <a href="#Introduction"><li>Introduction</li></a>
-                <a href="#HTML"><li>HTML</li></a>
-                <a href="#HTML5"><li>HTML5</li></a>
-                <a href="#Elements"><li>Elements</li></a>
-                <a href="#Attributes"><li>Attributes</li></a>
-                <a href="#Headings"><li>Headings</li></a>
-                <a href="#Paragraphs"><li>Paragraphs</li></a>
-                <a href="#Links"><li>Links</li></a>
-                <a href="#Images"><li>Images</li></a>
-                <a href="#Lists"><li>Lists</li></a>
-                <a href="#Forms"><li>Forms</li></a>
+            <header class="navbar-header">HTML Documentation</header>
+            <ul class="selection-list">
+                <a class="nav-link" href="#Introduction">
+                    <li class="selection-list">Introduction</li>
+                </a>
+                <a class="nav-link" href="#HTML">
+                    <li class="selection-list">HTML</li>
+                </a>
+                <a class="nav-link" href="#HTML5">
+                    <li class="selection-list">HTML5</li>
+                </a>
+                <a class="nav-link" href="#Elements">
+                    <li class="selection-list">Elements</li>
+                </a>
+                <a class="nav-link" href="#Attributes">
+                    <li class="selection-list">Attributes</li>
+                </a>
+                <a class="nav-link" href="#Headings">
+                    <li class="selection-list">Headings</li>
+                </a>
+                <a class="nav-link" href="#Paragraphs">
+                    <li class="selection-list">Paragraphs</li>
+                </a>
+                <a class="nav-link" href="#Links">
+                    <li class="selection-list">Links</li>
+                </a>
+                <a class="nav-link" href="#Images">
+                    <li class="selection-list">Images</li>
+                </a>
+                <a class="nav-link" href="#Lists">
+                    <li class="selection-list">Lists</li>
+                </a>
+                <a class="nav-link" href="#Forms">
+                    <li class="selection-list">Forms</li>
+                </a>
             </ul>
         </nav>
     </div>
     <main id="main-doc">
-            
+        <section class="main-section" id="Introduction">
+            <header id="Introduction">Introduction</header>
+            <p>HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML
+                is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A
+                markup language is used to define the text document within tag which defines the structure of web pages.
+            </p>
+        </section>
+        <section class="main-section" id="HTML">
+            <header id="HTML">HTML</header>
+            <p>HTML is a markup language that is used by the browser to manipulate text, images, and other content to
+                display it in the desired format. HTML is the standard markup language for creating Web pages.</p>
+            <p>HTML is not a programming language, but rather a markup language. In contrast to programming languages,
+                markup languages don't have logic or functionality. They simply provide structure and presentation to
+                text.</p>
+
+            <p>HTML uses "tags" to create elements, which form the building blocks of any website. These elements can be
+                text, images, links, forms, or anything else that can be displayed on a webpage. Each tag has a specific
+                purpose and meaning.</p>
+            <div class="code-container">
+                <code>
+                    &lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+                    &lt;a href="https://www.example.com"&gt;This is a link&lt;/a&gt;<br>
+                    &lt;img src="image.jpg" alt="An image"&gt;
+                    </code>
+            </div>
+        </section>
+        <section class="main-section" id="HTML5">
+            <header id="HTML5">HTML5</header>
+            <p>HTML5 is the latest version of HTML. It is the next major revision of the HTML standard, which is
+                currently
+                under development. HTML5 is intended to subsume not only HTML 4, but also XHTML 1 and DOM Level 2 HTML.
+                HTML5 is a standard for structuring and presenting content on the World Wide Web.</p>
+            <p>HTML5 includes detailed processing models to encourage more interoperable implementations; it extends,
+                improves and rationalizes the markup available for documents, and introduces markup and application
+                programming interfaces (APIs) for complex web applications.</p>
+        </section>
+        <section class="main-section" id="Elements">
+            <header id="Elements">Elements</header>
+            <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such
+                as
+                interactive forms, may be embedded into the rendered page. HTML provides a means to create structured
+                documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes
+                and
+                other items. HTML elements are delineated by tags, written using angle brackets.</p>
+            <div class="code-container">
+                <code>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &lt;html&gt;<br>
+                        &lt;head&gt;<br>
+                        &lt;title&gt;Page Title&lt;/title&gt;<br>
+                        &lt;/head&gt;<br>
+                        &lt;body&gt;<br>
+                        &lt;h1&gt;This is a Heading&lt;/h1&gt;<br>
+                        &lt;p&gt;This is a paragraph.&lt;/p&gt;<br>
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;
+                    </code>
+            </div>
+            <p>HTML tags are keywords (tag names) surrounded by angle brackets like &lt;html&gt;. HTML tags normally
+                come
+                in pairs like &lt;b&gt; and &lt;/b&gt;. The first tag in a pair is the start tag, the second tag is the
+                end
+                tag (they are also called opening tags and closing tags).</p>
+                <ul>
+                    <li>&lt;h1&gt; - Defines a top-level heading</li>
+                    <li>&lt;p&gt; - Defines a paragraph</li>
+                    <li>&lt;a&gt; - Defines a hyperlink</li>
+                    <li>&lt;img&gt; - Defines an image</li>
+                    <li>&lt;div&gt; - Defines a division or a section in an HTML document</li>
+                    <li>&lt;span&gt; - Defines a span of text</li>
+                    <li>&lt;ul&gt; - Defines an unordered list</li>
+                    <li>&lt;li&gt; - Defines a list item</li>
+                    <li>&lt;table&gt; - Defines a table</li>
+                    <li>&lt;tr&gt; - Defines a row in a table</li>
+                    <li>&lt;td&gt; - Defines a cell in a table</li>
+                </ul>
+        </section>
+        <section class="main-section" id="Attributes">
+            <header id="Attributes">Attributes</header>
+            <p>HTML attributes provide additional information about HTML elements. Attributes are always specified in
+                the
+                start tag and usually come in name/value pairs like: name="value".</p>
+            <p>Attributes usually come in name/value pairs like: name="value".</p>
+            <p>For example, the &lt;a&gt; tag has an href attribute, which contains the URL address:</p>
+            <div class="code-container">
+                <code>
+                    &lt;a href="https://www.example.com"&gt;This is a link&lt;/a&gt;
+                </code>
+            </div>
+            <p>Other types of attributes:</p>
+            <div class="code-container">
+                <code>
+                    &lt;img src="image.jpg" alt="An image"&gt;<br>
+                    &lt;input type="text" name="firstname"&gt;<br>
+                    &lt;form action="/action_page.html"&gt;
+                </code>
+            </div>
+        </section>
+        <section class="main-section" id="Headings">
+            <header id="Headings">Headings</header>
+            <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags. &lt;h1&gt; defines the most important
+                heading. &lt;h6&gt; defines the least important heading.</p>
+            <div class="code-container">
+                <code>
+                    &lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+                    &lt;h2&gt;This is a heading&lt;/h2&gt;<br>
+                    &lt;h3&gt;This is a heading&lt;/h3&gt;<br>
+                    &lt;h4&gt;This is a heading&lt;/h4&gt;<br>
+                    &lt;h5&gt;This is a heading&lt;/h5&gt;<br>
+                    &lt;h6&gt;This is a heading&lt;/h6&gt;
+                </code>
+            </div>
+        </section>
+        <section class="main-section" id="Paragraphs">
+            <header id="Paragraphs">Paragraphs</header>
+            <p>HTML paragraphs are defined with the &lt;p&gt; tag.</p>
+            <div class="code-container">
+                <code>
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                </code>
+            </div>
+        </section>
+        <section class="main-section" id="Links">
+            <header id="Links">Links</header>
+            <p>HTML links are defined with the &lt;a&gt; tag. The link address is specified in the href attribute:</p>
+            <div class="code-container">
+                <code>
+                    &lt;a href="https://www.example.com"&gt;This is a link&lt;/a&gt;
+                </code>
+            </div>
+        </section>
+        <section class="main-section" id="Images">
+            <header id="Images">Images</header>
+            <p>HTML images are defined with the &lt;img&gt; tag. The source file (src), alternative text (alt), width,
+                and height are provided as attributes:</p>
+            <div class="code-container">
+                <code>
+                        &lt;img src="image.jpg" alt="An image"&gt;
+                    </code>
+            </div>
+        </section>
+        <section class="main-section" id="Lists">
+            <header id="Lists">Lists</header>
+            <p>HTML lists are used to specify lists of information. All lists may consist of two different types:</p>
+            <ul>
+                <li>Ordered list - list of items in a numbered format</li>
+                <li>Unordered list - list of items in a bulleted format</li>
+            </ul>
+            <p>HTML also supports description lists. A description list is a list of terms, with a description of each
+                term.</p>
+            <p>HTML lists are defined with the &lt;ul&gt; (unordered list), &lt;ol&gt; (ordered list), and &lt;dl&gt;
+                (description list) tags.</p>
+            <div class="code-container">
+                <code>
+                        &lt;ul&gt;<br>
+                        &lt;li&gt;Coffee&lt;/li&gt;<br>
+                        &lt;li&gt;Tea&lt;/li&gt;<br>
+                        &lt;li&gt;Milk&lt;/li&gt;<br>
+                        &lt;/ul&gt;<br>
+                        &lt;ol&gt;<br>
+                        &lt;li&gt;Coffee&lt;/li&gt;<br>
+                        &lt;li&gt;Tea&lt;/li&gt;<br>
+                        &lt;li&gt;Milk&lt;/li&gt;<br>
+                        &lt;/ol&gt;<br>
+                        &lt;dl&gt;<br>
+                        &lt;dt&gt;Coffee&lt;/dt&gt;<br>
+                        &lt;dd&gt;- black hot drink&lt;/dd&gt;<br>
+                        &lt;dt&gt;Milk&lt;/dt&gt;<br>
+                        &lt;dd&gt;- white cold drink&lt;/dd&gt;<br>
+                        &lt;/dl&gt;
+                    </code>
+            </div>
+        </section>
+        <section class="main-section" id="Forms">
+            <header id="Forms">Forms</header>
+            <p>HTML forms are used to collect user input. The user input is most often sent to a server for processing.
+                The &lt;form&gt; element is a container for different types of input elements, such as: text fields,
+                checkboxes, radio buttons, submit buttons, etc.</p>
+            <p>HTML forms are defined with the &lt;form&gt; tag.</p>
+            <div class="code-container">
+                <code>
+                        &lt;form action="/action_page.php"&gt;<br>
+                        &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>
+                        &lt;input type="text" id="fname" name="fname"&gt;<br>
+                        &lt;input type="submit" value="Submit"&gt;<br>
+                        &lt;/form&gt;
+                    </code>
+            </div>
+        </section>
     </main>
 </body>
 
