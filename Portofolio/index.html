@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Portofolio</title>
 </head>
 
@@ -21,7 +22,7 @@
             <div class="text-container">
                 <h1 class="welcome-title">Welcome to my Portofolio</h1>
                 <p class="welcome-description">My name is <strong>Bogdan Bargaoanu</strong> and I am a software
-                    developer</p>
+                    developer.</p>
             </div>
             <div class="image-container">
                 <img src="imgsrc/csharp.png" alt="c# logo" class="small-image csharp-logo">
@@ -33,39 +34,92 @@
             </div>
         </div>
     </section>
+    <hr>
     <section id="projects">
         <h1 class="projects-title">Projects</h1>
         <div class="projects-container">
-            <div class="project-card">
-                <img src="imgsrc/project1.png" alt="project1" class="project-image">
-                <h3 class="project-title">Project 1</h3>
-                <p class="project-description">This is a project description</p>
+            <a href="https://github.com/BogdanBargaoanu/NeuralNetwork" target="_blank">
+                <div class="project-tile">
+                    <img src="imgsrc/neuralnetwork.jpg"
+                        alt="neuralnetwork" class="project-image">
+                    <h3 class="project-title">Neural Network</h3>
+                    <p class="project-description">Neural network for interpreting the MNIST dataset.</p>
+                </div>
+            </a>
+            <a href="https://github.com/BogdanBargaoanu/AutoHouse" target="_blank">
+                <div class="project-tile">
+                    <img src="imgsrc/autohouse.png" alt="autohouse" class="project-image">
+                    <h3 class="project-title">AutoHouse</h3>
+                    <p class="project-description">Auto vendor template in HTML/CSS.</p>
+                </div>
+            </a>
+            <a href="https://github.com/BogdanBargaoanu/JavaScriptSelfDrivingCar" target="_blank">
+                <div class="project-tile">
+                    <img src="imgsrc/jscar.png" alt="javascript self driving car" class="project-image">
+                    <h3 class="project-title">Self-driving car in JS</h3>
+                    <p class="project-description">Self-driving car with JavaScript and a simple neural-network.</p>
+                </div>
+            </a>
+            <a href="https://github.com/BogdanBargaoanu/arduinoProximitySensor-w-display" target="_blank">
+                <div class="project-tile">
+                    <img src="imgsrc/arduino.jpg" alt="arduino proximity sensor with display"
+                        class="project-image">
+                    <h3 class="project-title">Arduino Proximity Sensor</h3>
+                    <p class="project-description">Proximity sensor implementation with OLED display using arduino.</p>
+                </div>
+            </a>
+            <a href="https://github.com/BogdanBargaoanu/CashflowApp" target="_blank">
+                <div class="project-tile">
+                    <img src="imgsrc/cashflow.jpg"
+                        alt="cashflow app" class="project-image">
+                    <h3 class="project-title">Cashflow App</h3>
+                    <p class="project-description">Cashflow management app using a client-server arhitecture using
+                        Vue.js.
+                    </p>
+                </div>
+            </a>
+            <a href="https://github.com/BogdanBargaoanu/aproximatoarePolinomiale" target="_blank">
+                <div class="project-tile">
+                    <img src="imgsrc/systemident.png" alt="system identification methods"
+                        class="project-image">
+                    <h3 class="project-title">System behaviour identification</h3>
+                    <p class="project-description">Linar regression and non-linear ARX for identifying a system using
+                        MATLAB.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <hr>
+    <section id="contact">
+        <h1 class="contact-title">Contact</h1>
+        <div class="contact-container">
+        </div>
+        <h3>
+            <p>&copy; 2024 Bogdan Bargaoanu</p>
+        </h3>
+        <div class="links">
+            <div class="facebook-link">
+                <a href="https://www.facebook.com/bogdan.bargaoanu.9/" target="_blank" class="social-link">
+                    <i class="fab fa-facebook-square"></i> Facebook</a>
             </div>
-            <div class="project-card">
-                <img src="imgsrc/project2.png" alt="project2" class="project-image">
-                <h3 class="project-title">Project 2</h3>
-                <p class="project-description">This is a project description</p>
+            <div class="linkedin-link">
+                <a href="https://www.linkedin.com/in/bogdan-bargaoanu-598478211/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
-            <div class="project-card">
-                <img src="imgsrc/project3.png" alt="project3" class="project-image">
-                <h3 class="project-title">Project 3</h3>
-                <p class="project-description">This is a project description</p>
+            <div class="instagram-link">
+                <a href="https://www.instagram.com/bogdanbargaoanu/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i> Instagram</a>
             </div>
-            <div class="project-card">
-                <img src="imgsrc/project4.png" alt="project4" class="project-image">
-                <h3 class="project-title">Project 4</h3>
-                <p class="project-description">This is a project description</p>
+            <div class="github-link">
+                <a id="profile-link" href="https://www.github.com/bogdanbargaoanu" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i> GitHub</a>
             </div>
-            <div class="project-card">
-                <img src="imgsrc/project5.png" alt="project5" class="project-image">
-                <h3 class="project-title">Project 5</h3>
-                <p class="project-description">This is a project description</p>
+            <div class="email-link">
+                <a href="mailto:bn19bba@yahoo.com" target="_blank" class="social-link">
+                    <i class="fas fa-envelope"></i> Email</a>
             </div>
-            <div class="project-card">
-                <img src="imgsrc/project6.png" alt="project6" class="project-image">
-                <h3 class="project-title">Project 6</h3>
-                <p class="project-description">This is a project description</p>
-            </div>
+        </div>
+    </section>
 </body>
 
 </html>
