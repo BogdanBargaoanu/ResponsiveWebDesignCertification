@@ -1,0 +1,112 @@
+:root {
+  --navbar-color1: #02002b;
+  --navbar-color2: #d05454;
+  --navbar-color3: #c43131;
+  --welcome-color1: #080722;
+  --welcome-color2: #1e003a;
+  --welcome-color3: #7a2626;
+  --text-color1: rgb(255, 219, 219);
+  --text-color2: rgb(197, 0, 0);
+  --navbar-border-color: rgb(109, 78, 78);
+}
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(60deg, var(--navbar-color1) 10%, var(--navbar-color2) 45%, var(--navbar-color3) 100%);
+    border-bottom: 4px solid var(--navbar-border-color);
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    padding-right: 1rem;
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+.nav-list li {
+    padding-right: 1rem;
+}
+
+#welcome-section {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(300deg, var(--welcome-color1) 10%, var(--welcome-color2) 75%, var(--welcome-color3) 100%);
+    color: rgb(255, 219, 219);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-info p {
+    color: white;
+}
+
+.welcome-info strong {
+    color: var(--text-color2);
+}
+
+.small-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+}
+
+.csharp-logo {
+    top: 43%;
+    left: 28%;
+}
+
+.java-logo {
+    top: 60%;
+    left: 55%;
+}
+
+.cpp-logo {
+    top: 45%;
+    left: 70%;
+}
+
+.js-logo {
+    top: 20%;
+    left: 40%;
+    width: 130px;
+}
+
+.html-logo {
+    top: 25%;
+    left: 60%;
+}
+
+.css-logo {
+    top: 65%;
+    left: 25%;
+    width: 70px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
