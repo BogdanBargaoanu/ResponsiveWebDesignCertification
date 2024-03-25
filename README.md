@@ -16,7 +16,7 @@ This repository contains my solutions for the projects required to earn the free
 4. **Technical Documentation Page**: [Link to Project](https://github.com/BogdanBargaoanu/ResponsiveWebDesignCertification/tree/main/Documentantion)
    - Description: A technical documentation page for a chosen topic.
 
-5. **Personal Portfolio Webpage**: [Link to Project](#)
+5. **Personal Portfolio Webpage**: [Link to Project](https://github.com/BogdanBargaoanu/ResponsiveWebDesignCertification/tree/main/Portofolio)
    - Description: A personal portfolio webpage to showcase your work.
 
 ## About freeCodeCamp
