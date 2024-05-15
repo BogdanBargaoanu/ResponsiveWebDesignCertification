@@ -4,19 +4,19 @@ This repository contains my solutions for the projects required to earn the free
 
 ## Projects
 
-1. **Tribute Page**: [Link to Project](https://github.com/BogdanBargaoanu/ResponsiveWebDesignCertification/tree/main/Tribute)
+1. **Tribute Page**: [View the site](https://freecodecamptribute.netlify.app/)
    - Description: A simple webpage paying tribute to someone you admire.
 
-2. **Survey Form**: [Link to Project](https://github.com/BogdanBargaoanu/ResponsiveWebDesignCertification/tree/main/Survey)
+2. **Survey Form**: [View the site](https://freecodecampsurveys.netlify.app/)
    - Description: A form page to collect user feedback or information.
 
-3. **Product Landing Page**: [Link to Project](https://github.com/BogdanBargaoanu/ResponsiveWebDesignCertification/tree/main/ProductLanding)
+3. **Product Landing Page**: [View the site](https://freecodecampproductlanding.netlify.app/)
    - Description: A landing page for a product or service.
 
-4. **Technical Documentation Page**: [Link to Project](https://github.com/BogdanBargaoanu/ResponsiveWebDesignCertification/tree/main/Documentantion)
+4. **Technical Documentation Page**: [View the site](https://freecodecampdocumentation.netlify.app/)
    - Description: A technical documentation page for a chosen topic.
 
-5. **Personal Portfolio Webpage**: [Link to Project](https://github.com/BogdanBargaoanu/ResponsiveWebDesignCertification/tree/main/Portofolio)
+5. **Personal Portfolio Webpage**: [View the site](https://freecodecampportofolio.netlify.app/)
    - Description: A personal portfolio webpage to showcase your work.
 
 ## About freeCodeCamp
